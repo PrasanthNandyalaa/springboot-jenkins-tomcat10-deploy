@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @org.springframework.web.bind.annotation.RestController
-public class RestController {
+public class WelcomeController {
 
 	@GetMapping("/welcome/{name}")
 	public String welcome(@PathVariable("name") String name) {
